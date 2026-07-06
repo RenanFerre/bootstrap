@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="dados" style="background-color: #ebf2f5">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+
+                <div class="d-flex flex-row text-white sidebar">
+                    <img src="img/LogoDados.png" alt="LogoDados" class="logodados" />
+
+                    <a class="btn btn-dados d-flex" href="index.html" role="button">
+                        <img src="img/Botão.png" alt="Ícone" class="" />
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-6 mt-5 mb-5">
+                <div class="bg-white rounded-4 shadow-sm p-4 p-md-5 border text-secondary">
+                    <h2 class="fw-bold">Dados</h2>
+
+                    <div class="linha mt-4"></div>
+
+                    <div class="card border-light shadow-sm rounded-4 overflow-hidden mt-5" style="max-width: 550px">
+                        <!-- Área do Mapa (Imagem) -->
+                        <div class="bg-light d-flex align-items-center justify-content-center" style="height: 220px">
+                            <img src="img/mapa.png" class="w-100 h-100 object-fit-cover" alt="Mapa" />
+                        </div>
+
+                        <!-- Rodapé com o Texto -->
+                        <div class="text-center py-3 bg-body-tertiary btn-input">
+                            <a href="#" class="text-decoration-none fw-semibold " style="color: #007991">
+                                Clique no mapa para adicionar a localização
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <h6 class="mt-4" style="color: #8fa7b2">Nome</h6>
+
+                        <div class="input-group input-group-lg ">
+                            <input type="text" class="form-control rounded-4 bg-body-tertiary btn-input"
+                                style="width: 548px; height: 64px;" />
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="mt-4 d-flex center align-items-center justify-content-between">
+                            <h6 class="" style="color: #8fa7b2">Sobre</h6>
+                            <p class="" style="color: #8FA7B2">Máximo de 300 caracteres</p>
+                        </div>
+                        <div class="input-group input-group-lg ">
+                            <input type="text" class="form-control rounded-4 bg-body-tertiary btn-input"
+                                style="width: 548px; height: 120px;" />
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <h6 class="mt-4" style="color: #8fa7b2">Número de Whatsapp</h6>
+
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control rounded-4 bg-body-tertiary btn-input"
+                                style="width: 548px; height: 64px;" />
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <h6 class="mt-4" style="color: #8fa7b2">Fotos</h6>
+
+                        <div class="mb-3">
+
+                            <input type="file" id="addFoto" class="d-none" accept="image/*">
+
+                            <label for="addFoto"
+                                class=" btn-fotos upload-btn d-flex align-items-center justify-content-center border border-dashed rounded-4 bg-light cursor-pointer">
+                                <img src="img/+.png" alt="Ícone" class="" />
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="fw-bold mt-5">Visitação</h2>
+                        <div class="linha mt-4"></div>
+                    </div>
+                    <div>
+
+                        <h6 class="mt-5" style="color: #8fa7b2">Instruções</h6>
+
+                        <div class="input-group input-group-lg ">
+                            <input type="text" class="form-control rounded-4 bg-body-tertiary btn-input"
+                                style="width: 548px; height: 120px;" />
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <h6 class="mt-4" style="color: #8fa7b2">Horário de visitas</h6>
+
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control rounded-4 bg-body-tertiary btn-input"
+                                style="width: 548px; height: 64px;" />
+                        </div>
+
+                    </div>
+
+                    <div class="mt-4 d-flex align-items-center justify-content-between pb-4">
+                        <h6 class="" style="color: #8fa7b2">Atende fim de semana?</h6>
+
+                        <div class="form-check form-switch p-0 m-0">
+                            <input class="btn-toggle form-check-input custom-switch" type="checkbox" role="switch"
+                                id="switchFimSemana">
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn-confirmar btn btn-success mt- mb-4 rounded-4 ">Confirmar</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

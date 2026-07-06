@@ -1,0 +1,130 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 1000px
+}
+
+#dados {
+    background-color: #EBF2F5;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logodados {
+    width: 48px;
+    height: 56px;
+    position: absolute;
+    bottom: 46rem;
+}
+
+.crianças {
+    width: 65%;
+}
+
+.texto {
+    max-width: 40%;
+}
+
+.btn-customizado {
+    background-color: #FFD666;
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25rem;
+}
+
+.btn-dados {
+    background-color: #12AFCB;
+    border: none;
+    border-radius: 16px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 45rem;
+}
+
+.btn-dados:hover {
+    background-color: #17D6EB;
+}
+
+.btn-customizado:hover {
+  background-color: #96FEFF;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #15C3D6;
+    width: 96px;
+    height: 820px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: #D3E2E5;
+    margin: 0;
+}
+
+.btn-fotos {
+    width: 96px;
+    height: 96px;
+    border-style: dashed !important;
+    border-color: #cbd5e1 !important;
+    background-color: #f8fafc !important;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-input:hover {
+    background-color: #f1f5f9 !important; /* Efeito de hover discreto */
+}
+
+.btn-fotos:hover {
+    background-color: #f1f5f9 !important; /* Efeito de hover discreto */
+}
+
+.btn-toggle {
+    width: 50px !important;    /* Força uma largura maior para o botão */
+    height: 26px !important;   /* Força uma altura maior para o botão */
+    cursor: pointer;           /* Transforma o cursor em "mãozinha" ao passar o mouse */
+    background-color: #D3E2E5; /* Cor cinza de fundo quando desativado */
+    border: none;              /* Remove a borda padrão do Bootstrap */
+}
+
+.btn-toggle:checked {
+    background-color: #37c862; /* Cor azul/verde quando o botão for ativado */
+    border-color: none;
+}
+
+.btn-confirmar {
+    background-color: rgba(55, 199, 127, 0.5);
+    border: none;
+    border-radius: 16px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-confirmar:hover {
+    background-color: rgba(55, 199, 127, 1);
+}
